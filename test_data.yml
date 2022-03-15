@@ -1,0 +1,22 @@
+driver:
+  chrome: C:\Driver\chromedriver_win32\chromedriver.exe
+login:
+  username: { id: username }
+  password: { id: password }
+home:
+  searchBox: { name: q }
+search:
+  page: https://en.wikipedia.org/w/index.php?search
+  tag: a
+  urlcount: 40
+  search_box1_xpath: //*[@id="ooui-php-1"]
+  search_in_dd_arr_xpath: //*[@id="search"]/div[4]/div[2]/span/a/span[3]
+  search_all_checkbox_xpath: //*[@id="mw-advancedSearch-expandable-namespaces"]/div/div[2]/div/div/label[4]/span[1]
+  search_add_namespace_xpath: //*[@id="mw-advancedSearch-expandable-namespaces"]/div/div[3]/div[2]
+  search_in_xpath: //*[@id='mw-search-top-table']/div/div/div/span/span/button/span[2]
+  search_multiselect_widget_class: oo-ui-tagMultiselectWidget-group
+  selecteddnsval: 28
+  search_text: Verizon Communications
+  search_pad: search
+  search_result_1: //*[@id="mw-content-text"]/div[3]/ul/li[1]/div[1]/a
+  result_url: https://en.wikipedia.org/wiki/Verizon_Communications
